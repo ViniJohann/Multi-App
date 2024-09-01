@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Remove as barras de rolagem */
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    grid-template-rows: 25% auto 25%;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100vh; /* Ajuste para garantir que o container tenha altura */
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+
+
+.item  {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 1px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 25px black;
+}
+
+.app {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#title {
+    grid-column: 2;
+    grid-row: 1;
+    color: #333;
+    text-align: center; 
+    padding: 5px;
+}

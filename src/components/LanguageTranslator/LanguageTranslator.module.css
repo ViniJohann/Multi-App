@@ -1,0 +1,34 @@
+label {
+    margin: 5px 0 5px 0;
+}
+
+select {
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px; 
+    box-sizing: border-box;
+}
+
+#traslated {
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 95%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid black 1px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
